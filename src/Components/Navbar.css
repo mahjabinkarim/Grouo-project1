@@ -1,0 +1,23 @@
+.navbar_right ul li a{
+    position: relative;
+    padding-bottom: 2px;
+}
+.navbar_right ul li a::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: #666;
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    transition: all linear 0.4s;
+    
+}
+
+.navbar_right ul li a:hover:after{
+    width: 20px;
+    
+}
+.navbar_right ul li a:hover{
+    color: #b3b2b2;
+}
